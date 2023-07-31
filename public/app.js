@@ -14,10 +14,10 @@ window.onload = function () {
 
   // mouse click
   clickArea.addEventListener("mousedown", function () {
-    var audio = new Audio("./static/dog_sound.mp3");
+    var audio = new Audio("./static/sounds/dog_sound.mp3");
     audio.play();
     spinText();
-    img.src = "./static/second.png";
+    img.src = "./static/images/second.png";
     increaseScore();
 
     setInterval(() => {
@@ -35,19 +35,19 @@ window.onload = function () {
   });
 
   clickArea.addEventListener("mouseup", function () {
-    img.src = "./static/first.png";
+    img.src = "./static/images/first.png";
   });
 
   // touch screen
   clickArea.addEventListener("touchstart", function () {
-    var audio = new Audio("./static/dog_sound.mp3");
+    var audio = new Audio("./static/sounds/dog_sound.mp3");
     audio.play();
-    img.src = "./static/second.png";
+    img.src = "./static/images/second.png";
     increaseScore();
   });
 
   clickArea.addEventListener("touchmove", function () {
-    var audio = new Audio("./static/dog_sound.mp3");
+    var audio = new Audio("./static/sounds/dog_sound.mp3");
     audio.play();
     img.src = "./static/first.png";
   });
