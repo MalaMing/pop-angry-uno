@@ -2,14 +2,12 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const port = 3000
-const { index } = require('./routes/index.js');
 
+app.set ("view engine","ejs");
 app.use('/static', express.static('public'))
 
 app.get('/', (req, res) => {
-
-    res.write(index);
-    res.end();
+    res.render("index");
 })
 
 app.listen(port, () => {
