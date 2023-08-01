@@ -4,8 +4,10 @@
     { "src": "/*.*", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "server.js" }
+    { "src": "/(.*)", "dest": "/server.js" }
   ],
-  "devCommand" : "node server.js"
+  "engines": {
+    "node": "18"
+  },
+  "devCommand": "node server.js"
 }
-
