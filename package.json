@@ -6,7 +6,7 @@
     "axios": "^1.4.0",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "http": "^0.0.1-security",
+    "http": "0.0.1-security",
     "nodemon": "^3.0.1",
     "pug": "^3.0.2"
   },
@@ -19,7 +19,7 @@
   "engines": {
     "node": "16.13.0"
   },
-  "author": "",
+  "author": "MalaMing",
   "license": "ISC",
-  "description": ""
+  "description": "about pop dog "
 }
