@@ -12,5 +12,11 @@
   },
   "scripts": {
     "start": "nodemon server.js"
-  }
+  },
+  "name": "pop-angry-uno-v.2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
