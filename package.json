@@ -16,6 +16,9 @@
   "name": "pop-angry-uno-v.2",
   "version": "1.0.0",
   "main": "server.js",
+  "engines": {
+    "node": "16.13.0"
+  },
   "author": "",
   "license": "ISC",
   "description": ""
